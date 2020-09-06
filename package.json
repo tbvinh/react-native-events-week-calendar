@@ -1,8 +1,8 @@
 {
   "name": "react-native-events-week-calendar",
   "title": "React Native Events Week Calendar",
-  "version": "1.0.1",
-  "description": "TODO",
+  "version": "1.0.18",
+  "description": "The daily calendar or weekly calendar",
   "main": "index.js",
   "files": [
     "README.md",
