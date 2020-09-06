@@ -10,8 +10,8 @@
 
 ## Usage
 ```javascript
-import CBEventsWeekCalendar from 'react-native-events-week-calendar';
+import VCalendar from 'react-native-events-week-calendar';
 
 // TODO: What to do with the module?
-CBEventsWeekCalendar;
+
 ```
