@@ -28,8 +28,8 @@ import { VCalendar } from 'react-native-events-week-calendar';
 ...
 ```
 ## Props
-* **`onNewEvent`** _(function)_ callback e.g. ```{"Title": "Column title", "hours": {"from": "8:15", "to": "8:30"}, "index": 1}```
-* **`onClickEvent`** _(function)_ callback e.g. ```{"title": "Dr. Mariana Joseph", "summary": "3412 Piedmont Rd NE, GA 3032", "start": "2020-09-07 09:15:00", "end": "2020-09-07 10:30:00", "Column-index": 1}```
+* **`onNewEvent`** _function(item)_ callback e.g. ```{"Title": "Column title", "hours": {"from": "8:15", "to": "8:30"}, "index": 1}```
+* **`onClickEvent`** _function(item)_ callback e.g. ```{"title": "Dr. Mariana Joseph", "summary": "3412 Piedmont Rd NE, GA 3032", "start": "2020-09-07 09:15:00", "end": "2020-09-07 10:30:00", "Column-index": 1}```
 * **`title`** _(string)_ The left top cell
 * **`hourStart`** _(number)_ The working hour start, e.g. 8
 * **`hourEnd`** _(number)_ The working hour end, e.g. 20
