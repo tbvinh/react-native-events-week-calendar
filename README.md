@@ -31,7 +31,5 @@ import { VCalendar } from 'react-native-events-week-calendar';
 * **
 * **`columnHeaders`
 ## TODO: 
-
-[x] Horizontal scroll, vertical scroll
-
-[x] 
+- [x] Horizontal scroll, vertical scroll
+- [x] 
