@@ -28,12 +28,12 @@ import { VCalendar } from 'react-native-events-week-calendar';
 ...
 ```
 ## Props
-* **`onNewEvent`** _(function)_ callback e.g. {"Title": "Column title", "hours": {"from": "8:15", "to": "8:30"}, "index": 1}
-* **`onClickEvent`** _(function)_ callback e.g. {"title": "Dr. Mariana Joseph", "summary": "3412 Piedmont Rd NE, GA 3032", "start": "2020-09-07 09:15:00", "end": "2020-09-07 10:30:00", "Column-index": 1}
-* **`title`** The left top cell
-* **`hourStart`** The working hour start, e.g. 8:00
-* **`hourEnd`** The working hour end, e.g. 20:00
-* **`showHourStart`** The start hour to display, e.g. 7. It means that user can see the top hour of calendar
+* **`onNewEvent`** _(function)_ callback e.g. ```{"Title": "Column title", "hours": {"from": "8:15", "to": "8:30"}, "index": 1}```
+* **`onClickEvent`** _(function)_ callback e.g. ```{"title": "Dr. Mariana Joseph", "summary": "3412 Piedmont Rd NE, GA 3032", "start": "2020-09-07 09:15:00", "end": "2020-09-07 10:30:00", "Column-index": 1}```
+* **`title`** _(string)_ The left top cell
+* **`hourStart`** _(number)_ The working hour start, e.g. 8
+* **`hourEnd`** _(number)_ The working hour end, e.g. 20
+* **`showHourStart`** _(number)_ e.g. 7. The calendar scrolls to the hour 7th when display.
 * **`columnHeaders`** _(array)_
 ```js
 [
