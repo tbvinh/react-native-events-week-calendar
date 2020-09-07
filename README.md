@@ -10,8 +10,11 @@
 
 ## Images
 Screen Shot in Android Tab
+
 ![Image of Sample](https://github.com/tbvinh/react-native-events-week-calendar/raw/master/example/demo-image.jpg)
+
 Gif Image
+
 ![Image of Sample](https://github.com/tbvinh/react-native-events-week-calendar/raw/master/example/demo-sm.gif)
 
 ## Usage
