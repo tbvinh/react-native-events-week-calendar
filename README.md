@@ -19,7 +19,7 @@ Gif Image
 
 ## Sample at Snack Expo
 
-[link](https://snack.expo.io/@tbvinh/7c0cba){:target="_blank"}
+[link](https://snack.expo.io/@tbvinh/testcalendar)
 
 ## Usage
 ```javascript
