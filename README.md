@@ -9,7 +9,10 @@
 `$ react-native link react-native-events-week-calendar`
 
 ## Images
-![Image of Sample](./example/demo-sm.gif)
+Screen Shot in Android Tab
+![Image of Sample](https://github.com/tbvinh/react-native-events-week-calendar/raw/master/example/demo-image.jpg)
+Gif Image
+![Image of Sample](https://github.com/tbvinh/react-native-events-week-calendar/raw/master/example/demo-sm.gif)
 
 ## Usage
 ```javascript
