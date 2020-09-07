@@ -129,7 +129,7 @@ export class VCalendar extends React.Component {
                         position: 'absolute', padding: 4, borderRadius: 5
                     }]}
                 >
-                    <Text numberOfLines={1}>{item.title || 'Event'}</Text>
+                    <Text style={{color: item.color?? 'black'}} numberOfLines={1}>{item.title || 'Event'}</Text>
                     {numberOfLines > 1 ? (
                         <Text
                             numberOfLines={numberOfLines - 1}
@@ -152,8 +152,7 @@ export class VCalendar extends React.Component {
     }
 
     loadData = async () => {
-        console.log('loadData')
-
+        
         const { hourStart, hourEnd } = this.state
 
         const times = []
@@ -248,7 +247,7 @@ export class VCalendar extends React.Component {
 
     }
     render() {
-        const { modalVisible } = this.state
+        
         return (
             <>
                 {this.state.loading ?
@@ -257,12 +256,7 @@ export class VCalendar extends React.Component {
                     </View>
                     :
                     <View style={styles.container}>
-                        <View style={{ flexDirection: 'row' }}>
-                            <Text>XXX</Text>
-                            <View style={{ flex: 1, flexDirection: 'row-reverse' }}>
-                                <Text>Y</Text>
-                            </View>
-                        </View>
+                        
                         <View style={styles.headerContainer}>
                             <View style={styles.fixedColumn2}>
                                 <Text >{this.state.title}</Text>

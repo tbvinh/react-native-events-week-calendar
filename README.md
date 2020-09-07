@@ -17,6 +17,10 @@ Gif Image
 
 ![Image of Sample](https://github.com/tbvinh/react-native-events-week-calendar/raw/master/example/demo-sm.gif)
 
+## Sample at Snack Expo
+
+[link](https://snack.expo.io/@tbvinh/7c0cba){:target="_blank"}
+
 ## Usage
 ```javascript
 import { VCalendar } from 'react-native-events-week-calendar';
