@@ -9,7 +9,7 @@
 `$ react-native link react-native-events-week-calendar`
 
 ## Images
-![Image of Sample](https://github.com/tbvinh/react-native-events-week-calendar/raw/master/example/demo-sm.gif)
+![Image of Sample](./example/demo-sm.gif)
 
 ## Usage
 ```javascript
@@ -26,8 +26,12 @@ import { VCalendar } from 'react-native-events-week-calendar';
           showHourStart={7}
         />
 ...
-
-
-// TODO: What to do with the module?
-
 ```
+## Props
+* **
+* **`columnHeaders`
+## TODO: 
+
+[x] Horizontal scroll, vertical scroll
+
+[x] 
